@@ -212,7 +212,7 @@ export const ProfileSidebar = () => {
         <StyledMenuItem
           translate="no"
           onClick={() => {
-            window.open("https://github.com/maciekt07/TodoApp");
+            window.open("https://github.com/johnpauljuma/TS-todo-list");
           }}
         >
           <GitHub /> &nbsp; Github{" "}
@@ -229,7 +229,7 @@ export const ProfileSidebar = () => {
         </StyledMenuItem>
         <StyledMenuItem
           onClick={() => {
-            window.open("https://github.com/maciekt07/TodoApp/issues/new");
+            window.open("https://github.com/johnpauljuma/TS-todo-list");
           }}
         >
           <BugReportRounded /> &nbsp; Report Issue{" "}
@@ -245,20 +245,7 @@ export const ProfileSidebar = () => {
             </Tooltip>
           )}
         </StyledMenuItem>
-        <StyledMenuItem
-          className="bmcMenu"
-          // sx={{ color: "#e5ac00 !important" }}
-          onClick={() => {
-            window.open("https://www.buymeacoffee.com/maciekt07");
-          }}
-        >
-          <BmcIcon className="bmc-icon" src={bmcLogo} /> &nbsp; Buy me a coffee{" "}
-        </StyledMenuItem>
-        <Divider sx={{ margin: "0 8px" }} />
-        <StyledMenuItem onClick={handleLogoutConfirmationOpen} sx={{ color: "#ff4040 !important" }}>
-          <Logout /> &nbsp; Logout
-        </StyledMenuItem>
-
+        
         <div
           style={{
             marginTop: "auto",
