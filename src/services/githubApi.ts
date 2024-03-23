@@ -6,8 +6,8 @@ export const fetchGitHubInfo = async (): Promise<{
   repoData: GitHubRepoInfo;
   branchData: GitHubRepoInfo;
 }> => {
-  const username = "maciekt07";
-  const repo = "TodoApp";
+  const username = "johnpauljuma";
+  const repo = "TS-todo-list";
   const branch = "main";
   try {
     const [repoResponse, branchResponse] = await Promise.all([
