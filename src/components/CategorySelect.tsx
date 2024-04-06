@@ -120,7 +120,7 @@ export const CategorySelect: React.FC<CategorySelectProps> = ({
           },
         }}
       >
-        <HeaderMenuItem disabled>
+        {/*<HeaderMenuItem disabled>
           <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
             <b>Select Categories (max {MAX_CATEGORIES})</b>
             {selectedCats.length > 0 && (
@@ -134,7 +134,7 @@ export const CategorySelect: React.FC<CategorySelectProps> = ({
               </SelectedNames>
             )}
           </div>
-        </HeaderMenuItem>
+          </HeaderMenuItem>*/}
 
         {categories && categories.length > 0 ? (
           categories.map((category) => (

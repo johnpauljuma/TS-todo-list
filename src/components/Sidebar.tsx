@@ -149,7 +149,7 @@ export const ProfileSidebar = () => {
         >
           <Logo src={logo} alt="logo" />
           <h2>
-            <span style={{ color: "#7764E8" }}>Todo</span> App
+            <span style={{ color: "#7764E8" }}>Todo-List</span> App
             <span style={{ color: "#7764E8" }}>.</span>
           </h2>
         </LogoContainer>
@@ -301,15 +301,15 @@ export const ProfileSidebar = () => {
           <Divider sx={{ margin: "0 8px" }} />
           <CreditsContainer translate="no">
             <span style={{ display: "flex", alignItems: "center" }}>
-              Made with &nbsp;
-              <Favorite sx={{ fontSize: "14px" }} />
+              Made
+              
             </span>
             <span style={{ marginLeft: "6px", marginRight: "4px" }}>by</span>
             <a
               style={{ textDecoration: "none", color: "inherit" }}
-              href="https://github.com/maciekt07"
+              href="https://github.com/johnpauljuma"
             >
-              maciekt07
+              johnpauljuma
             </a>
           </CreditsContainer>
           <CreditsContainer>
